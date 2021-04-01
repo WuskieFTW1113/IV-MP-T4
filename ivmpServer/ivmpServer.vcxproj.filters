@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{6d477643-e6b7-42e9-ab23-815bb85844ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Npcs">
+      <UniqueIdentifier>{682d1f91-dee9-4c74-9b9e-22d5937944a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{e9396dc4-8646-4699-8dc2-8877f3507fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{2de9b5b9-7fc7-4a43-87c2-32ea27b4e7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{91c88c04-a6f2-4d97-8da6-4d0468212cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vehicles">
+      <UniqueIdentifier>{9ad552bc-691c-496b-965f-362b02a02afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{189f0898-60f0-4950-96a8-2f9aaa0a7063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vehicles">
+      <UniqueIdentifier>{778e88e2-cf2c-425e-ba7e-ae40a679f4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{75c5a5a8-a7a9-4090-87dd-a82f50e32f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{e863b5aa-b5db-4ccd-bf1f-35371689dd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Npcs">
+      <UniqueIdentifier>{9ad52818-2e5a-4c27-98e9-36ed07879310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vehicles\exports">
+      <UniqueIdentifier>{667ab87b-62a1-46f3-ac4c-bf2dbbcf8acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vehicles\exports">
+      <UniqueIdentifier>{d5063d42-f237-467a-9dd3-d51c64e6f3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players\Exports">
+      <UniqueIdentifier>{eef90a52-4340-4cc4-b5a5-6aff923348a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players\Exports">
+      <UniqueIdentifier>{e190a5ac-cbf0-459d-8143-aca59fb1f43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players\Functions">
+      <UniqueIdentifier>{f02a1f89-4e70-4112-864f-40f9f53e564c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players\Functions">
+      <UniqueIdentifier>{e8c7ad84-4f62-46f9-8a98-e7244260866b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Npcs\Export">
+      <UniqueIdentifier>{0ac1988d-8f83-4d26-aa2e-6e2a27ae7c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld">
+      <UniqueIdentifier>{6804506e-d5de-4c1c-812c-768c4355ba4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld">
+      <UniqueIdentifier>{e41eaff3-f2d4-4580-9a5a-211af4c709a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{1af3cfb5-8cfa-4396-8e93-0575d5ac4658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{d921b524-bac9-4814-9d8a-d10686aef54e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainNetwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="receiveVehicleHps.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="receiveVehicleSync.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicles.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="vehStreamConfirmation.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="playerConnectionState.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="players.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="receiveClientCredentials.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="receiveFootSync.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="receivePlayerChat.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="sendClientRequestedData.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="npcChar.cpp">
+      <Filter>Source Files\Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="npcManager.cpp">
+      <Filter>Source Files\Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="networkManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="streamData.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="streamPlayer.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="streamVehicle.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleDataRequested.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="apiMath.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="apiParamHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="apiVehicle.cpp">
+      <Filter>Source Files\Vehicles\exports</Filter>
+    </ClCompile>
+    <ClCompile Include="apiPlayers.cpp">
+      <Filter>Source Files\Players\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleList.cpp">
+      <Filter>Source Files\Vehicles\exports</Filter>
+    </ClCompile>
+    <ClCompile Include="playerList.cpp">
+      <Filter>Source Files\Players\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="stdParamHelper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="worldsController.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="apiWorld.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="apiCheckPoints.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="checkPointsController.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="apiObjects.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="objectsController.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="streamCheckPoint.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="apiColoredChat.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="playerVehicleEntrance.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="apiDebugTask.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="apiPlayerManager.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="apiNpc.cpp">
+      <Filter>Source Files\Npcs</Filter>
+    </ClCompile>
+    <ClCompile Include="streamPlayerList.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="apiDialog.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="apiPlayerInputs.cpp">
+      <Filter>Source Files\Players\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="apiBlips.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="entitySpawned.cpp">
+      <Filter>Source Files\Players\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="chatFunctions.cpp">
+      <Filter>Source Files\Players\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedDefines\easylogging++.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="networkManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="streamFunctions.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicles.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleSyncDeclarations.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehStreamConfirmation.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedDefines\packetsIds.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="playerConnectionState.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="players.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="receiveClientCredentials.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="receiveFootSync.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="receivePlayerChat.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="sendClientRequestedData.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="inVehicleInputs.h">
+      <Filter>Header Files\Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcChar.h">
+      <Filter>Header Files\Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="npcManager.h">
+      <Filter>Header Files\Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="onFootInputs.h">
+      <Filter>Header Files\Npcs</Filter>
+    </ClInclude>
+    <ClInclude Include="mainNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playerFunctions.h">
+      <Filter>Header Files\Players\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="stdParamHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="worldsController.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="checkPointsController.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="objectsController.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="apiDebugTask.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="apiPlayerManager.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="streamPlayerList.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogManager.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="blipController.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiPlayerEvents.h">
+      <Filter>Header Files\Players\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="entitySpawned.h">
+      <Filter>Header Files\Players\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiVehicle.h">
+      <Filter>Header Files\Vehicles\exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiVehicleEvents.h">
+      <Filter>Header Files\Vehicles\exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\vehicleList.h">
+      <Filter>Header Files\Vehicles\exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiColoredChat.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiMath.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiParamHelper.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiPlayer.h">
+      <Filter>Header Files\Players\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiPlayerInputs.h">
+      <Filter>Header Files\Players\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\playerList.h">
+      <Filter>Header Files\Players\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiNpc.h">
+      <Filter>Header Files\Npcs\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiBlips.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiCheckPoints.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiObjects.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiWorld.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="API\apiDialog.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

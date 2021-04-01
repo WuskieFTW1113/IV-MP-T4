@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A37FA88F-352B-4374-BED2-F7BB6B9CED26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;CLIENT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\ArusHook\;..\Raknet\;D:\GWEN\include;E:\DxSDK\Include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\Raknet\RakNetDebug.lib;ws2_32.lib;E:\DxSDK\Lib\x86\d3d9.lib;E:\DxSDK\Lib\x86\d3dx9d.lib;D:\GWEN\lib\windows\vs2010\unittestd.lib;D:\GWEN\lib\windows\vs2010\GWEND-Renderer-DirectX9d.lib;D:\GWEN\lib\windows\vs2010\gwen_staticd.lib;..\Debug\clientLibs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\ArusHook\;..\RakNet2;..\DirectX\Include;..\GWEN\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\Release\RakNet2.lib;ws2_32.lib;..\DirectX\Lib\d3d9.lib;..\DirectX\Lib\d3dx9.lib;..\GWEN\Lib\GWEN-Renderer-DirectX9.lib;..\GWEN\Lib\gwen_static.lib;../Release/clientLibs.lib;psapi.lib;..\Client\bass.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SharedDefines\paramHelper.h" />
+    <ClInclude Include="animList.h" />
+    <ClInclude Include="cameraMemory.h" />
+    <ClInclude Include="chatInput.h" />
+    <ClInclude Include="chatWindow.h" />
+    <ClInclude Include="colorHelper.h" />
+    <ClInclude Include="ControlState.h" />
+    <ClInclude Include="CPad.h" />
+    <ClInclude Include="CPadData.h" />
+    <ClInclude Include="CPatcher.h" />
+    <ClInclude Include="CustomFiberThread.h" />
+    <ClInclude Include="dialogList.h" />
+    <ClInclude Include="dummyVehicles.h" />
+    <ClInclude Include="EntityMemory.h" />
+    <ClInclude Include="gameAudio.h" />
+    <ClInclude Include="gameBlips.h" />
+    <ClInclude Include="gameCheckPoints.h" />
+    <ClInclude Include="gameLibs.h" />
+    <ClInclude Include="gameMemory.h" />
+    <ClInclude Include="gameObjects.h" />
+    <ClInclude Include="gameVectors.h" />
+    <ClInclude Include="gameWorld.h" />
+    <ClInclude Include="guiManager.h" />
+    <ClInclude Include="guiMouse.h" />
+    <ClInclude Include="ivGUI.h" />
+    <ClInclude Include="keyboard.h" />
+    <ClInclude Include="localPlayerAnim.h" />
+    <ClInclude Include="localPlayerCamera.h" />
+    <ClInclude Include="localPlayerInvent.h" />
+    <ClInclude Include="LuaVM.h" />
+    <ClInclude Include="MainHook.h" />
+    <ClInclude Include="modelsHandler.h" />
+    <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="npcRecorder.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="openMpWindow.h" />
+    <ClInclude Include="padCallBack.h" />
+    <ClInclude Include="padControl.h" />
+    <ClInclude Include="padData.h" />
+    <ClInclude Include="padKeys.h" />
+    <ClInclude Include="parseConnectionStates.h" />
+    <ClInclude Include="parseInVehiclePlayerPacket.h" />
+    <ClInclude Include="parseOnFootPlayerPacket.h" />
+    <ClInclude Include="PhysicalMemory.h" />
+    <ClInclude Include="playerDisconnected.h" />
+    <ClInclude Include="playerDriveBy.h" />
+    <ClInclude Include="playerList.h" />
+    <ClInclude Include="playerMemory.h" />
+    <ClInclude Include="players.h" />
+    <ClInclude Include="playerServerFunctions.h" />
+    <ClInclude Include="playerSkins.h" />
+    <ClInclude Include="prepareClientToServerPacket.h" />
+    <ClInclude Include="removeVehicle.h" />
+    <ClInclude Include="requestAndReceivePlayerData.h" />
+    <ClInclude Include="rotationMatrix.h" />
+    <ClInclude Include="simpleMath.h" />
+    <ClInclude Include="syncPlayer.h" />
+    <ClInclude Include="taskMemory.h" />
+    <ClInclude Include="teamSpeak.h" />
+    <ClInclude Include="testVehicleInputs.h" />
+    <ClInclude Include="vehicleMemory.h" />
+    <ClInclude Include="vehicleRequestAndReceiveData.h" />
+    <ClInclude Include="vehicles.h" />
+    <ClInclude Include="vehiclesList.h" />
+    <ClInclude Include="vehicleSync.h" />
+    <ClInclude Include="vehicleTasks.h" />
+    <ClInclude Include="weaponInfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SharedDefines\paramHelper.cpp" />
+    <ClCompile Include="animList.cpp" />
+    <ClCompile Include="cameraMemory.cpp" />
+    <ClCompile Include="chatInput.cpp" />
+    <ClCompile Include="chatWindow.cpp" />
+    <ClCompile Include="colorHelper.cpp" />
+    <ClCompile Include="CPad.cpp" />
+    <ClCompile Include="CPatcher.cpp" />
+    <ClCompile Include="CustomFiberThread.cpp" />
+    <ClCompile Include="dialogList.cpp" />
+    <ClCompile Include="dummyVehicle.cpp" />
+    <ClCompile Include="EntityMemory.cpp" />
+    <ClCompile Include="gameAudio.cpp" />
+    <ClCompile Include="gameBlips.cpp" />
+    <ClCompile Include="gameCheckPoints.cpp" />
+    <ClCompile Include="gameLibs.cpp" />
+    <ClCompile Include="gameMemory.cpp" />
+    <ClCompile Include="gameObjects.cpp" />
+    <ClCompile Include="gameWorld.cpp" />
+    <ClCompile Include="guiManager.cpp" />
+    <ClCompile Include="guiMouse.cpp" />
+    <ClCompile Include="inVehicleSync.cpp" />
+    <ClCompile Include="ivGUI.cpp" />
+    <ClCompile Include="keyboard.cpp" />
+    <ClCompile Include="localPlayer.cpp" />
+    <ClCompile Include="localPlayerAnim.cpp" />
+    <ClCompile Include="localPlayerCam.cpp" />
+    <ClCompile Include="localPlayerCamera.cpp" />
+    <ClCompile Include="localPlayerInit.cpp" />
+    <ClCompile Include="localPlayerInputsHandler.cpp" />
+    <ClCompile Include="localPlayerInvent.cpp" />
+    <ClCompile Include="localVehicleEntry.cpp" />
+    <ClCompile Include="LuaVM.cpp" />
+    <ClCompile Include="MainHook.cpp" />
+    <ClCompile Include="modelsHandler.cpp" />
+    <ClCompile Include="NetworkManager.cpp" />
+    <ClCompile Include="npcRecorder.cpp" />
+    <ClCompile Include="Offsetscpp.cpp" />
+    <ClCompile Include="openMpWindow.cpp" />
+    <ClCompile Include="padCallBack.cpp" />
+    <ClCompile Include="padControl.cpp" />
+    <ClCompile Include="parseConnectionStates.cpp" />
+    <ClCompile Include="parseInVehiclePlayerPacket.cpp" />
+    <ClCompile Include="parseOnFootPlayerPacket.cpp" />
+    <ClCompile Include="PedStructureReference.cpp" />
+    <ClCompile Include="playerDisconnected.cpp" />
+    <ClCompile Include="playerDriveBy.cpp" />
+    <ClCompile Include="playerList.cpp" />
+    <ClCompile Include="playerMemory.cpp" />
+    <ClCompile Include="players.cpp" />
+    <ClCompile Include="playerServerFunctions.cpp" />
+    <ClCompile Include="playerSkins.cpp" />
+    <ClCompile Include="prepareClientToServerPacket.cpp" />
+    <ClCompile Include="pulsePlayers.cpp" />
+    <ClCompile Include="pulseVehicles.cpp" />
+    <ClCompile Include="removeVehicle.cpp" />
+    <ClCompile Include="requestAndReceivePlayerData.cpp" />
+    <ClCompile Include="requestAndReceiveVehicleData.cpp" />
+    <ClCompile Include="rotationMatrix.cpp" />
+    <ClCompile Include="simpleMath.cpp" />
+    <ClCompile Include="spawnRemotePlayer.cpp" />
+    <ClCompile Include="spawnVehicle.cpp" />
+    <ClCompile Include="syncPlayer.cpp" />
+    <ClCompile Include="teamSpeak.cpp" />
+    <ClCompile Include="vehicleMemory.cpp" />
+    <ClCompile Include="vehicles.cpp" />
+    <ClCompile Include="vehiclesList.cpp" />
+    <ClCompile Include="vehicleSync.cpp" />
+    <ClCompile Include="vehicleTasks.cpp" />
+    <ClCompile Include="weaponInfo.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

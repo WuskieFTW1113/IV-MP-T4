@@ -1,0 +1,1 @@
+void processLocalPlayerVehicleInput(int vehicle);

@@ -1,0 +1,1 @@
+void syncPlayer(int playerid);

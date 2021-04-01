@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{263ffee5-44e6-4b4c-8c4b-b3798314f25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{ca59f7c4-ca51-40f9-b5a0-294d86a24c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{14d4b5b3-91f7-4b59-b2c0-dcff05200e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{f243025f-8c7a-4bb7-ab08-8ce0056d217c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animations">
+      <UniqueIdentifier>{1ebebef3-f02e-453f-9420-6f3d2ab7792a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{5ebbcabc-03ff-44bf-bad3-f39a442274ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LocalPlayer">
+      <UniqueIdentifier>{45e4f7c4-fc91-49b5-9b25-63c12f08c357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory">
+      <UniqueIdentifier>{b26d7494-e00e-491d-96b2-2e07d72f4376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory\Patcher">
+      <UniqueIdentifier>{cb969db0-6f2e-4220-bf43-d1efe77901c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{57eb47d5-fda1-4941-9af8-831791c6943d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players\ControlPad">
+      <UniqueIdentifier>{2600971d-2bcc-48b2-9499-b35171cc843e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vehicles">
+      <UniqueIdentifier>{58c68d5c-5dff-451e-9d77-c7d68b831c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{af8b14dc-2610-4427-b051-1f3e7da60803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animations">
+      <UniqueIdentifier>{fe90c0af-56d3-4cef-844f-5c30d50108ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{6f060708-d13a-4ff4-a301-0998a4f81cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LocalPlayer">
+      <UniqueIdentifier>{e6568cfa-2f3a-44b4-ba63-83ca5eb132dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory">
+      <UniqueIdentifier>{6608ea53-224c-4635-a040-07b93e1d5104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory\Patcher">
+      <UniqueIdentifier>{0d9a5109-4842-419f-9642-1be501009df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{928343cc-9bca-4a61-8990-9657a272baed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vehicles">
+      <UniqueIdentifier>{728111f4-bba9-4e4d-9155-f19b95928ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{3b0e0ae4-92ca-45a0-a705-ef7e9dd38723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players\ControlPad">
+      <UniqueIdentifier>{394f50af-08a4-4acd-b885-d1d9b75c6d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ivGUI">
+      <UniqueIdentifier>{d6314d1f-a935-42d7-a1e2-7ea3621beb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\ivGUI">
+      <UniqueIdentifier>{f850c9dd-dc8c-459e-94de-4ad2653655e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFiberThread.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkManager.h">
+      <Filter>Header Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="animList.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="playerSkins.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="chatWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="guiManager.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="openMpWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="localPlayerAnim.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="parseConnectionStates.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="prepareClientToServerPacket.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CPatcher.h">
+      <Filter>Header Files\Memory\Patcher</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="gameVectors.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="playerMemory.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlState.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="CPad.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="CPadData.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="padControl.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="padKeys.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="padData.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="parseOnFootPlayerPacket.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="players.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDisconnected.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="syncPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="requestAndReceivePlayerData.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicles.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehiclesList.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleRequestAndReceiveData.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleSync.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicleTasks.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="testVehicleInputs.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="removeVehicle.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="parseInVehiclePlayerPacket.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleMath.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="rotationMatrix.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponInfo.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SharedDefines\paramHelper.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="modelsHandler.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="npcRecorder.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="padCallBack.h">
+      <Filter>Header Files\Players\ControlPad</Filter>
+    </ClInclude>
+    <ClInclude Include="gameWorld.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="playerServerFunctions.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="localPlayerInvent.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjects.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="gameCheckPoints.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ivGUI.h">
+      <Filter>Header Files\GUI\ivGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="colorHelper.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="playerList.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogList.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="guiMouse.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="taskMemory.h">
+      <Filter>Source Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="localPlayerCamera.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="gameLibs.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="dummyVehicles.h">
+      <Filter>Header Files\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDriveBy.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="gameAudio.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="chatInput.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaVM.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="gameBlips.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="teamSpeak.h">
+      <Filter>Header Files\LocalPlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomFiberThread.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="npcRecorder.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="modelsHandler.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="animList.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="playerSkins.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="openMpWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="guiManager.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="chatWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerAnim.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="prepareClientToServerPacket.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="parseConnectionStates.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerInit.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerCam.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayer.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="inVehicleSync.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerInputsHandler.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CPatcher.cpp">
+      <Filter>Source Files\Memory\Patcher</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="playerMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleMemory.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="rotationMatrix.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleMath.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponInfo.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SharedDefines\paramHelper.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleSync.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicles.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="vehiclesList.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicleTasks.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="pulseVehicles.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="requestAndReceiveVehicleData.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="removeVehicle.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="padCallBack.cpp">
+      <Filter>Source Files\Players\ControlPad</Filter>
+    </ClCompile>
+    <ClCompile Include="padControl.cpp">
+      <Filter>Source Files\Players\ControlPad</Filter>
+    </ClCompile>
+    <ClCompile Include="CPad.cpp">
+      <Filter>Source Files\Players\ControlPad</Filter>
+    </ClCompile>
+    <ClCompile Include="spawnRemotePlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="requestAndReceivePlayerData.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="pulsePlayers.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="syncPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="parseOnFootPlayerPacket.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="parseInVehiclePlayerPacket.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="players.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDisconnected.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="PedStructureReference.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameWorld.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="playerServerFunctions.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerInvent.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjects.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="gameCheckPoints.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ivGUI.cpp">
+      <Filter>Source Files\GUI\ivGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="colorHelper.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="localVehicleEntry.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="playerList.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogList.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="guiMouse.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="gameBlips.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="localPlayerCamera.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameLibs.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="dummyVehicle.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDriveBy.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="gameAudio.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="chatInput.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaVM.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsetscpp.cpp">
+      <Filter>Source Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="spawnVehicle.cpp">
+      <Filter>Source Files\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="teamSpeak.cpp">
+      <Filter>Source Files\LocalPlayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
