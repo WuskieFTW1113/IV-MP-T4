@@ -117,7 +117,7 @@ namespace apiPlayer
 			DLL void setArmor(int i);
 			DLL int getArmor();
 
-			DLL void setMoney(int i);
+			DLL void setMoney(unsigned int i);
 			DLL void setDoorStat(unsigned int model, apiMath::Vector3* pos, bool status);
 
 			DLL int getGame();
