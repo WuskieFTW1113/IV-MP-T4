@@ -10,7 +10,7 @@ void dummyVehicles::add(unsigned int id)
 	if(dummies.find(id) == dummies.end())
 	{
 		dummies[id] = 0;
-		LINFO << "Vehicle " << id << " wasnt created by the mod, queued";
+		LINFO << "Vehicle " << id << " wasn't created by the mod, queued";
 	}
 }
 
