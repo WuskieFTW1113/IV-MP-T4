@@ -7,6 +7,7 @@ namespace vehicleList
 	void loadList();
 	void getDefaultTune(unsigned int i, size_t& defaultSize, std::vector<int>& tunes);
 	unsigned long getModel(int id);
+	int getIdFromModel(unsigned long model);
 
 	//API and Internal
 	DLL bool isValidModel(int id);

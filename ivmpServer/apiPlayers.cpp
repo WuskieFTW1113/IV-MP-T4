@@ -761,7 +761,7 @@ int apiPlayer::player::getArmor()
 	return players::getPlayer(this->engineId).armor;
 }
 
-void apiPlayer::player::setMoney(int i)
+void apiPlayer::player::setMoney(unsigned int i)
 {
 	RakNet::BitStream b;
 	b.Write((MessageID)IVMP);

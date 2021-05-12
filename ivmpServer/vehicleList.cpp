@@ -101,6 +101,15 @@ const char* vehicleList::getModelName(int i)
 	return vList.at(i).name.c_str();
 }
 
+int vehicleList::getIdFromModel(unsigned long model)
+{
+	for(std::map<int, vehicleModel>::iterator i = vList.begin(); i != vList.end(); ++i)
+	{
+		if(i->second.model == model) return i->first;
+	}
+	return -1;
+}
+
 void vehicleList::getDefaultTune(unsigned int i, size_t& defaultSize, std::vector<int>& tunes)
 {
 	for(std::map<int, vehicleModel>::iterator it = vList.begin(); it != vList.end(); ++it)
