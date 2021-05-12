@@ -32,6 +32,11 @@ int apiVehicle::vehicle::getId()
 	return id;
 }
 
+unsigned int apiVehicle::vehicle::getModel()
+{
+	return vehicles::getVehicle(id).model;
+}
+
 int apiVehicle::vehicle::getDriver()
 {
 	return vehicles::getVehicle(id).driverId;

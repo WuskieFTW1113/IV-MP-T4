@@ -24,6 +24,7 @@ namespace apiVehicle
 			DLL apiMath::Vector3 getTurnVelocity();
 
 			DLL int getId();
+			DLL unsigned int getModel();
 			DLL int getDriver(); //Returns the current driver ID or 0
 			DLL void setTune(unsigned int part, bool on); //part is 0-9
 			DLL bool isTuned(unsigned int part);
