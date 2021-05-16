@@ -122,8 +122,8 @@ int main()
 						i->second.peak = i->second.onlinePlayers;
 					}
 
-					s << "as('" << i->second.name << "','" << i->second.location << "'," << i->second.onlinePlayers << "," 
-						<< i->second.peak << ",'" << i->second.site << "');";
+					s << i->second.name << "," << i->second.location << "," << i->second.onlinePlayers << "," 
+						<< i->second.peak << "," << i->second.site << "\n";
 
 					++i;
 				}
