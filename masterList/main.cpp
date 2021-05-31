@@ -48,7 +48,7 @@ void initDisconnects()
 {
 	disconnects.insert(std::make_pair(ID_CONNECTION_LOST, "Connection Lost"));
 	disconnects.insert(std::make_pair(ID_REMOTE_CONNECTION_LOST, "Connection Lost"));
-	disconnects.insert(std::make_pair(ID_REMOTE_DISCONNECTION_NOTIFICATION, "Remote con closed"));
+	disconnects.insert(std::make_pair(ID_REMOTE_DISCONNECTION_NOTIFICATION, "Remote console closed"));
 
 	disconnects.insert(std::make_pair(ID_CONNECTION_ATTEMPT_FAILED, "Connection attempt failed"));
 	disconnects.insert(std::make_pair(ID_DISCONNECTION_NOTIFICATION, "Connection terminated"));
@@ -58,7 +58,7 @@ void initDisconnects()
 	disconnects.insert(std::make_pair(ID_CONNECTION_BANNED, "You are banned from this server"));
 	disconnects.insert(std::make_pair(ID_INVALID_PASSWORD, "Invalid passworld"));
 	//disconnects.insert(std::make_pair(ID_INCOMPATIBLE_PROTOCOL_VERSION, "Incompatible protocol"));
-	disconnects.insert(std::make_pair(ID_IP_RECENTLY_CONNECTED, "The server hasnt removed your old connection yet"));
+	disconnects.insert(std::make_pair(ID_IP_RECENTLY_CONNECTED, "The server hasn't removed your old connection yet"));
 	//disconnects.insert(std::make_pair(ID_MODIFIED_PACKET, "Invalid packets"));
 }
 
