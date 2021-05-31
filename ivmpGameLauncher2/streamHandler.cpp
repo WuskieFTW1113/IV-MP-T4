@@ -1,7 +1,7 @@
-#include "../Raknet/RakPeerInterface.h"
-#include "../Raknet/BitStream.h"
+#include "../RakNet2/RakPeerInterface.h"
+#include "../RakNet2/BitStream.h"
 #include "streamHandler.h"
-#include "../Raknet/MessageIdentifiers.h"
+#include "../RakNet2/MessageIdentifiers.h"
 #include "easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
 #include <experimental/filesystem>
