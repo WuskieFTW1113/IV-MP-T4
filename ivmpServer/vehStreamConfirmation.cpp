@@ -1,6 +1,6 @@
 #include "vehStreamConfirmation.h"
 #include "players.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include <time.h>
 #include "vehicles.h"
 #include "entitySpawned.h"
