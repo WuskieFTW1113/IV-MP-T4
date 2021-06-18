@@ -1,5 +1,5 @@
 #include "worldsController.h"
-#include "apiWorld.h"
+#include "API/apiWorld.h"
 #include <map>
 
 std::map<unsigned int, apiWorld::virtualWorld*> vWorlds;
