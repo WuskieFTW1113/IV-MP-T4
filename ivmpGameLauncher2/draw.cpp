@@ -1,7 +1,7 @@
 #include "draw.h"
-#include <d3dx9core.h>
-#include <d3dx9math.h>
-#include <DxErr.h>
+#include "../DirectX/Include/d3dx9core.h"
+#include "../DirectX/Include/d3dx9math.h"
+#include "../DirectX/Include/DxErr.h"
 #include <vector>
 
 IDirect3DDevice9* pDevice = NULL;
