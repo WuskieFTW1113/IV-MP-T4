@@ -1,8 +1,8 @@
 #include "playerFunctions.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "apiColoredChat.h"
-#include "easylogging++.h"
+#include "API/apiColoredChat.h"
+#include "../SharedDefines/easylogging++.h"
 
 void sendPlayerMsg(players::player& p, const char* text, unsigned int hex, int chatId)
 {
