@@ -4,7 +4,7 @@
 #include <Windows.h>
 #include <fstream>
 #include "d3dHook.h"
-#include <DxErr.h>
+#include "../DirectX/Include/DxErr.h"
 #include "../clientLibs/execution.h"
 
 bool windowed = false;
