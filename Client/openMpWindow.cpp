@@ -2,11 +2,11 @@
 #include "guiManager.h"
 #include "easylogging++.h"
 
-#include "Gwen/Input/Windows.h"
-#include "Gwen\Controls\WindowControl.h"
-#include "Gwen\Controls\Button.h"
-#include "Gwen\Controls\Label.h"
-#include "Gwen/Controls/ListBox.h"
+#include "../GWEN/Include/Gwen/Input/Windows.h"
+#include "../GWEN/Include/Gwen\Controls\WindowControl.h"
+#include "../GWEN/Include/Gwen\Controls\Button.h"
+#include "../GWEN/Include/Gwen\Controls\Label.h"
+#include "../GWEN/Include/Gwen/Controls/ListBox.h"
 
 Gwen::Controls::Button* mpWindowLaunch = nullptr;
 Gwen::Controls::Button* mpWindowClose = nullptr;
