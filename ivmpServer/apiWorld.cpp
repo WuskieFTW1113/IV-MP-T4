@@ -1,8 +1,8 @@
-#include "apiWorld.h"
+#include "API/apiWorld.h"
 #include "players.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 apiWorld::virtualWorld::virtualWorld(unsigned int id, unsigned int weather, unsigned int hour, unsigned int minutes, unsigned int minuteDuration)
 {
