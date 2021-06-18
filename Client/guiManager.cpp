@@ -2,9 +2,9 @@
 #include "guiManager.h"
 #include "easylogging++.h"
 
-#include "Gwen/Gwen.h"
-#include "Gwen/Renderers/DirectX9.h"
-#include "Gwen\Input\Windows.h"
+#include "../GWEN/Include/Gwen/Gwen.h"
+#include "../GWEN/Include/Gwen/Renderers/DirectX9.h"
+#include "../GWEN/Include/Gwen\Input\Windows.h"
 #include "../clientLibs/d3d.h"
 #include "../clientLibs/gameWindow.h"
 #include "../ClientManager/ivScripting.h"
