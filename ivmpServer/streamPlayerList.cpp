@@ -2,7 +2,7 @@
 #include "players.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 void streamPlayerList::playerConnected(unsigned long long int player)
 {
