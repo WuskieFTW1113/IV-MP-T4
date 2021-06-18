@@ -1,11 +1,11 @@
-#include "playerList.h"
+#include "API/playerList.h"
 #include <string>
 #include <map>
 #include <vector>
 #include "stdParamHelper.h"
-#include "apiParamHelper.h"
+#include "API/apiParamHelper.h"
 #include <fstream>
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 struct playerModel
 {
