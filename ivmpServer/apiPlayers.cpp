@@ -1,10 +1,10 @@
-#include "apiPlayer.h"
+#include "API/apiPlayer.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
 #include "playerFunctions.h"
-#include "apiWorld.h"
+#include "API/apiWorld.h"
 #include "dialogManager.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "blipController.h"
 #include <string>
 #include "streamFunctions.h"
