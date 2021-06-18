@@ -1,6 +1,6 @@
-#include <d3d9.h>
-#include <d3dx9.h>
-#include "Gwen/Skins/TexturedBase.h"
+#include "../DirectX/Include/d3d9.h"
+#include "../DirectX/Include/d3dx9.h"
+#include "../GWEN/Include/Gwen/Skins/TexturedBase.h"
 
 namespace guiManager
 {
