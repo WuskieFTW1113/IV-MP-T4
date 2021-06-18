@@ -2,12 +2,12 @@
 #include "npcChar.h"
 #include "players.h"
 #include "vehicles.h"
-#include "apiParamHelper.h"
+#include "API/apiParamHelper.h"
 #include <fstream>
 //#include "../Server/apiNpcController.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include <time.h>
-#include "apiNpc.h"
+#include "API/apiNpc.h"
 
 #include "networkManager.h"
 #include "packetsIds.h"
