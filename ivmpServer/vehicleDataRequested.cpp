@@ -1,5 +1,5 @@
 #include "vehicles.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
 #include "vehicleSyncDeclarations.h"
