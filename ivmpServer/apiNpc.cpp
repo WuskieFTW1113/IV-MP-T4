@@ -1,7 +1,7 @@
-#include "apiNpc.h"
+#include "API/apiNpc.h"
 #include "npcChar.h"
 #include <time.h>
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
 #include "networkManager.h"
 #include "players.h"
