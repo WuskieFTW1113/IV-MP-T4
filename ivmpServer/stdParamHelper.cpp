@@ -1,5 +1,5 @@
 #include "stdParamHelper.h"
-#include "exporting.h"
+#include "../SharedDefines/exporting.h"
 
 #if linux
 #include <string.h>
