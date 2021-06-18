@@ -1,8 +1,8 @@
 #include "chatWindow.h"
 #include "guiManager.h"
 
-#include "Gwen/Input/Windows.h"
-#include "Gwen/Controls/TextBox.h"
+#include "../GWEN/Include/Gwen/Input/Windows.h"
+#include "../GWEN/Include/Gwen/Controls/TextBox.h"
 
 #include "players.h"
 #include "easylogging++.h"
