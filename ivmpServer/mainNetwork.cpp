@@ -1,9 +1,9 @@
-#include "mainNetwork.h"
+#include "API/mainNetwork.h"
 #include "networkManager.h"
-#include "vehicleList.h"
-#include "playerList.h"
-#include "easylogging++.h"
-#include "apiWorld.h"
+#include "API/vehicleList.h"
+#include "API/playerList.h"
+#include "../SharedDefines/easylogging++.h"
+#include "API/apiWorld.h"
 #if linux
 #include "../ivmpMasterCon/includes.h"
 #else
