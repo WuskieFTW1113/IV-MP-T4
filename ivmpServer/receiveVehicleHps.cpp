@@ -1,10 +1,10 @@
 #include "vehicles.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
 //#include "../Server/eventManager.h"
 #include "vehicleSyncDeclarations.h"
-#include "apiVehicleEvents.h"
+#include "API/apiVehicleEvents.h"
 
 apiVehicleEvents::vHealth healthChange = NULL;
 apiVehicleEvents::vTyre tyrePop = NULL;
