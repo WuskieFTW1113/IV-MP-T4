@@ -1,8 +1,8 @@
 #include "sendClientRequestedData.h"
 #include "npcChar.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
-#include "playerList.h"
+#include "API/playerList.h"
 #include "entitySpawned.h"
 
 void sendPlayerData(players::player& whosData, players::player& toWho, networkManager::connection* con)
