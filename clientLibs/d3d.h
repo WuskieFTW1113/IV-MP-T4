@@ -1,4 +1,4 @@
-#include <d3d9.h>
+#include "../DirectX/Include/d3d9.h"
 
 namespace d3d
 {
