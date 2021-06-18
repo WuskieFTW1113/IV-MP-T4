@@ -1,9 +1,9 @@
 #include "receiveFootSync.h"
 #include "players.h"
 #include "vehicles.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
-#include "apiPlayerEvents.h"
+#include "API/apiPlayerEvents.h"
 #include "vehicleSyncDeclarations.h"
 
 apiPlayerEvents::vLeft leftVehFunc = 0;
