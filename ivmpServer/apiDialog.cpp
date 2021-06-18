@@ -1,8 +1,8 @@
-#include "apiDialog.h"
+#include "API/apiDialog.h"
 #include "networkManager.h"
 #include <map>
 #include "players.h"
-#include "apiPlayerEvents.h"
+#include "API/apiPlayerEvents.h"
 #include "dialogManager.h"
 #include "../SharedDefines/packetsIds.h"
 
