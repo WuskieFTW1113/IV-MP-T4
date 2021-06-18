@@ -4,7 +4,7 @@
 #include <windowsx.h>
 #include "easylogging++.h"
 #include "../clientLibs/d3d.h"
-#include <DxErr.h>
+#include "../DirectX/Include/DxErr.h"
 
 IDirect3D9Proxy::IDirect3D9Proxy(IDirect3D9 * pD3D)
 	: m_pD3D(pD3D)
