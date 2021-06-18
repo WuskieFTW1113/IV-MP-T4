@@ -1,7 +1,7 @@
 #include "vehicles.h"
-#include "easylogging++.h"
-#include "vehicleList.h"
-#include "apiVehicle.h"
+#include "../SharedDefines/easylogging++.h"
+#include "API/vehicleList.h"
+#include "API/apiVehicle.h"
 
 std::map<int, vehicles::netVehicle> cars;
 
