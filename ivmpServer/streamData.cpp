@@ -1,6 +1,6 @@
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "npcManager.h"
 #include "npcChar.h"
 #include "streamFunctions.h"
