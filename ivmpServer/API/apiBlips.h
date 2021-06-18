@@ -1,5 +1,5 @@
 #include "apiMath.h"
-#include <exporting.h>
+#include "../SharedDefines/exporting.h"
 
 #ifndef APIBLIPS_H
 #define APIBLIPS_H
