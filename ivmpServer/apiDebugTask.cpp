@@ -1,6 +1,6 @@
 #include "apiDebugTask.h"
 #include <sstream>
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 #if linux
 #else
