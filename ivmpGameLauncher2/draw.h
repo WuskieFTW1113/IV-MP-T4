@@ -1,4 +1,4 @@
-#include <d3d9.h>
+#include "../DirectX/Include/d3d9.h"
 
 void setDevice(IDirect3DDevice9* g_pD3DDevice);
 void Line(float x1, float y1, float x2, float y2, float width, bool antialias, DWORD color);
