@@ -3,7 +3,7 @@
 #include "../SharedDefines/packetsIds.h"
 #include "vehicleSyncDeclarations.h"
 #include "npcChar.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 RakNet::BitStream vOut;
 
