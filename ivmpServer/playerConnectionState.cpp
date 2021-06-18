@@ -3,8 +3,8 @@
 #include "vehicles.h"
 ////#include "../Server/eventManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "apiPlayerEvents.h"
-#include "easylogging++.h"
+#include "API/apiPlayerEvents.h"
+#include "../SharedDefines/easylogging++.h"
 #include "streamPlayerList.h"
 #include "vehicleSyncDeclarations.h"
 
