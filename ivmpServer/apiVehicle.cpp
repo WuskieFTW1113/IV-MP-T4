@@ -1,10 +1,10 @@
-#include "apiVehicle.h"
+#include "API/apiVehicle.h"
 #include "vehicles.h"
-#include "vehicleList.h"
+#include "API/vehicleList.h"
 #include "players.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "entitySpawned.h"
 
 std::map<int, apiVehicle::vehicle> apiVehicleMap;
