@@ -1,11 +1,11 @@
 #include "vehicles.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "networkManager.h"
 #include "../SharedDefines/packetsIds.h"
 //#include "../Server/eventManager.h"
 #include "vehicleSyncDeclarations.h"
-#include "apiVehicleEvents.h"
-#include "apiPlayerEvents.h"
+#include "API/apiVehicleEvents.h"
+#include "API/apiPlayerEvents.h"
 #include "receiveFootSync.h"
 
 apiPlayerEvents::vLeft enterDone = NULL;
