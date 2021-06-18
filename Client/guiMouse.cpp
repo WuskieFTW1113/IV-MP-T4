@@ -1,7 +1,7 @@
 #include "chatWindow.h"
 #include "guiMouse.h"
 #include "guiManager.h"
-#include "Gwen/Controls/ImagePanel.h"
+#include "../GWEN/Include/Gwen/Controls/ImagePanel.h"
 #include "easylogging++.h"
 #include "../clientLibs/gameWindow.h"
 
