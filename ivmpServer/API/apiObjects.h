@@ -1,5 +1,5 @@
 #include "apiMath.h"
-#include <exporting.h>
+#include "../SharedDefines/exporting.h"
 #include <vector>
 
 #ifndef apiObjects_H
