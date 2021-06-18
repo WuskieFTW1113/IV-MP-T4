@@ -1,11 +1,11 @@
 #include "receiveClientCredentials.h"
 #include "players.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
 //#include "../Server/eventManager.h"
-#include "apiPlayerEvents.h"
-#include "playerList.h"
-#include "apiWorld.h"
+#include "API/apiPlayerEvents.h"
+#include "API/playerList.h"
+#include "API/apiWorld.h"
 #include "streamPlayerList.h"
 
 apiPlayerEvents::pJoin credential = 0;
