@@ -2,26 +2,26 @@
 #include <Windows.h>
 #include <Dbghelp.h>
 #include "easylogging++.h"
-#include <d3d9.h>
-#include <d3dx9core.h>
-#include <d3dx9math.h>
-#include <DxErr.h>
+#include "../DirectX/Include/d3d9.h"
+#include "../DirectX/Include/d3dx9core.h"
+#include "../DirectX/Include/d3dx9math.h"
+#include "../DirectX/Include/DxErr.h"
 
 // C RunTime Header Files
 #include <stdlib.h>
 #include <memory.h>
 #include <tchar.h>
 
-#include "Gwen/Gwen.h"
-#include "Gwen/Skins/Simple.h"
-#include "Gwen/Skins/TexturedBase.h"
-#include "Gwen/UnitTest/UnitTest.h"
-#include "Gwen/Input/Windows.h"
-#include "Gwen/Renderers/DirectX9.h"
-#include "Gwen/Controls/TextBox.h"
-#include "Gwen/Controls/ListBox.h"
-#include "Gwen\Controls\Button.h"
-#include "Gwen/Controls/CheckBox.h"
+#include "../GWEN/Include/Gwen/Gwen.h"
+#include "../GWEN/Include/Gwen/Skins/Simple.h"
+#include "../GWEN/Include/Gwen/Skins/TexturedBase.h"
+#include "../GWEN/Include/Gwen/UnitTest/UnitTest.h"
+#include "../GWEN/Include/Gwen/Input/Windows.h"
+#include "../GWEN/Include/Gwen/Renderers/DirectX9.h"
+#include "../GWEN/Include/Gwen/Controls/TextBox.h"
+#include "../GWEN/Include/Gwen/Controls/ListBox.h"
+#include "../GWEN/Include/Gwen\Controls\Button.h"
+#include "../GWEN/Include/Gwen/Controls/CheckBox.h"
 #include "streamHandler.h"
 
 #include "draw.h"
