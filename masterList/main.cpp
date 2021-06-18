@@ -1,6 +1,6 @@
-#include "MessageIdentifiers.h"
-#include "RakPeer.h"
-#include "BitStream.h"
+#include "../RakNet2/MessageIdentifiers.h"
+#include "../RakNet2/RakPeer.h"
+#include "../RakNet2/BitStream.h"
 #include <map>
 #include <sstream>
 #include <time.h>
