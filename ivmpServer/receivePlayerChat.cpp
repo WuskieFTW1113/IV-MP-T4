@@ -1,7 +1,7 @@
 #include "receivePlayerChat.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "players.h"
-#include "apiPlayerEvents.h"
+#include "API/apiPlayerEvents.h"
 
 apiPlayerEvents::pChat chat = 0;
 
