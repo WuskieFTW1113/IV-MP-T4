@@ -1,7 +1,7 @@
 #include "networkManager.h"
 #include "RakPeer.h"
 #include <map>
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
 
 #include "playerConnectionState.h"
