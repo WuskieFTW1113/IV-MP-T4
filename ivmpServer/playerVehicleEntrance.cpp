@@ -1,10 +1,10 @@
 #include "receiveFootSync.h"
 #include "players.h"
 #include "vehicles.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 #include "../SharedDefines/packetsIds.h"
 ////#include "../Server/eventManager.h"
-#include "apiPlayerEvents.h"
+#include "API/apiPlayerEvents.h"
 
 apiPlayerEvents::vEnterRequest enteringVehFunc = 0;
 
