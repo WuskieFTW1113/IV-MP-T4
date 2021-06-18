@@ -1,8 +1,8 @@
-#include "apiBlips.h"
+#include "API/apiBlips.h"
 #include <map>
 #include "networkManager.h"
 #include "players.h"
-#include "apiPlayer.h"
+#include "API/apiPlayer.h"
 #include "blipController.h"
 #include "../SharedDefines/packetsIds.h"
 
