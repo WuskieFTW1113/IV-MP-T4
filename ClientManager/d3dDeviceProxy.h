@@ -1,4 +1,4 @@
-#include <d3d9.h>
+#include "../DirectX/Include/d3d9.h"
 
 interface IDirect3DDevice9Proxy : public IDirect3DDevice9
 {
