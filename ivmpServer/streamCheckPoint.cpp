@@ -1,7 +1,7 @@
 #include "streamFunctions.h"
 #include "checkPointsController.h"
 #include "../SharedDefines/packetsIds.h"
-#include "easylogging++.h"
+#include "../SharedDefines/easylogging++.h"
 
 RakNet::BitStream cpOut;
 apiMath::Vector3 cpBufPos;
