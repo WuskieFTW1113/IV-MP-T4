@@ -7,7 +7,7 @@
 #include "../SharedDefines/truelog.h"
 #include "../SharedDefines/packetsIds.h"
 #include "pipeHandler.h"
-
+#include "../SharedDefines/json.h"
 _INITIALIZE_EASYLOGGINGPP
 
 struct serverInfo
@@ -65,7 +65,6 @@ void initDisconnects()
 int main()
 {
 	pipeHandler::init(1, "masterlistPipe");
-
 	RakNet::RakPeerInterface *peer = RakNet::RakPeerInterface::GetInstance();
 	RakNet::Packet *packet;
 	
@@ -108,6 +107,7 @@ int main()
 			{
 				std::map<uint64_t, serverInfo>::iterator i = servers.begin();
 				std::ostringstream s;
+				nlohmann::json jsonList;
 				while(i != servers.end())
 				{
 					if(pulses > i->second.lastCheck)
@@ -121,13 +121,17 @@ int main()
 					if(i->second.onlinePlayers > i->second.peak) {
 						i->second.peak = i->second.onlinePlayers;
 					}
-
-					s << i->second.name << "," << i->second.location << "," << i->second.onlinePlayers << "," 
-						<< i->second.peak << "," << i->second.site << "\n";
-
+					nlohmann::json jsonObj{
+						{"name", i->second.name},
+						{"loc", i->second.location},
+						{"players", i->second.onlinePlayers},
+						{"peak", i->second.peak},
+						{"site", i->second.site}
+					};
+					jsonList.push_back(jsonObj);
 					++i;
 				}
-				pipeHandler::write(1, s.str().c_str());
+				pipeHandler::write(1, jsonList.dump().c_str());
 			}
 			catch(std::exception& e)
 			{
